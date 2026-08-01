@@ -1,0 +1,33 @@
+<!-- ====================================================================== -->
+<!-- COMPONENT: PRODUCT INTERFACE CARD                                      -->
+<!-- Description: Semantic layout for the single product display,          -->
+<!-- optimized for mobile-first responsiveness and conversion design.       -->
+<!-- ====================================================================== -->
+<article class="product-card">
+  
+  <!-- VISUAL CONTAINER: Handles asset loading and promotion overlays -->
+  <div class="product-image-container">
+    <img 
+      src="https://archive.org" 
+      alt="Tenis Lakai Essex Negro Suede - Hubba Store Catalog" 
+      loading="lazy"
+      class="product-img">
+    <span class="badge-promo" role="status">Promoción</span>
+  </div>
+
+  <!-- COMMERCIAL CONTENT CONTAINER: Handles branding, titles, and checkout -->
+  <div class="product-info">
+    <span class="product-brand">Lakai Limited Footwear</span>
+    <h3 class="product-title">Tenis Lakai Essex Negro Suede</h3>
+    
+    <!-- ACCESSIBILITY PRICE BOX: Structured for screen readers and SEO indexing -->
+    <div class="product-price-box">
+      <span class="price-original" aria-label="Original price">₡ 45.900</span>
+      <span class="price-current" aria-label="Discounted price">₡ 38.900</span>
+    </div>
+
+    <!-- CALL TO ACTION: Frictionless 2-step conversion button -->
+    <button type="button" class="btn-checkout-action">Comprar en 2 pasos</button>
+  </div>
+
+</article>
