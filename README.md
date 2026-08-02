@@ -29,7 +29,8 @@ hubba-store-frontend-reconstruction/
  │
  └── legacy-source/             # Historical data and reverse-engineering blueprints
       ├── hubba-raw.html        # Raw HTML recovered from historical server logs
-      └── antes-wayback.png     # Full-size layout capture of the source baseline
+      ├── mobile-wayback.png    # Full-size layout capture of the source baseline
+      └── desktop-wayback.png   # Full-size layout capture of the source baseline
 ```
 
 ---
