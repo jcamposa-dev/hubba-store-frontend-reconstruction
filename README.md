@@ -1,3 +1,9 @@
+## 🔄 The Evolution: From No-Code Automation to Native Code
+
+This repository represents **Phase 2** of the Hubba Store infrastructure:
+* **Phase 1 (Legacy Production):** I originally designed and launched the operational e-commerce platform using a low-code architecture (WordPress/WooCommerce). I engineered an asynchronous data pipeline using CSV exports and cloud storage to sync local desktop inventory (Mónica 9 ERP) and integrated the official Correos de Costa Rica REST API via automated webhooks for real-time logistics fulfillment.
+* **Phase 2 (This Repository - Current Dev):** To eliminate monolithic dependencies, optimize mobile rendering performance, and completely control the data stream, I am refactoring the entire UI/UX layout. I am translating legacy structures recovered from historical database snapshots and the Wayback Machine into custom, semantic HTML5, modern CSS3, and native JavaScript.
+
 # Hubba Store - Front-End Reconstruction Project
 
 A high-performance, responsive front-end reconstruction of a legacy e-commerce platform, migrating historical data from automated database snapshots into modern, clean, and semantic HTML5/CSS3 components.
